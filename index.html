@@ -184,10 +184,13 @@
   </div>
 
   <div class="email-form">
-    <form id="notifyForm">
-      <input type="email" name="email" placeholder="Your email" required />
-      <input type="submit" value="Notify me" />
-    </form>
+	<form id="notifyForm">
+	  <input type="email" name="email" placeholder="Your email" required />
+	  <input type="hidden" name="_autoresponse" value="Thank you for joining Lorebound Studios! You’ll be the first to know when the adventure begins." />
+	  <input type="hidden" name="_subject" value="Lorebound Studios: You’re in!" />
+	  <input type="hidden" name="_template" value="table">
+	  <input type="submit" value="Notify me" />
+	</form>
   </div>
 
 <footer style="text-align: center; font-size: 0.9em; line-height: 1.5em;">
